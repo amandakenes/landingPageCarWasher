@@ -23,29 +23,61 @@ main {
     height: 25%;
     padding: 20px;
     width: 700px;
+    margin-bottom: 80px;
 }
 
 .text-info h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bolder;
-    letter-spacing: 0.1px;
+    letter-spacing: -0.4px;
+    line-height: 49px;
+    margin-bottom: 12px;
+    font-weight: bolder;
+    color: white;
 }
 
 .text-info p {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.text-info p span {
+    color: rgb(246, 208, 70);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: all ease-in-out 0.5s;
+}
+
+.text-info p span:hover {
+    font-size: 16px;
 }
 
 .text-info button {
-    margin-top: 10px;
+    margin-top: 15px;
     border: none;
     outline: none;
-    width: 500px;
+    width: 470px;
     height: 40px;
     border-radius: 8px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    color: rgb(199, 183, 0);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.text-info button:hover {
+    background-color: rgb(199, 183, 0);
+    width: 475px;
+    height: 42px;
+    font-size: 16px;
+    color: white;
 }
 
 .aboutMe-img img {
-    padding-right: 100px;
-    width: 800px;
+    width: 735px;
+    height: 500px;
+    margin-bottom: -68.5px;
 }
